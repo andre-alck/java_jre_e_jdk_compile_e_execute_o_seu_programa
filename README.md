@@ -18,3 +18,13 @@ java Programa
 javac: comando utilizado no Prompt de Comando para compilar um arquivo \*.java. Recebe em sequência o nome do arquivo JAVA. Gera o arquivo Bytecode (\*.class). (JDK.)
 
 java: comando utilizado para executar o Bytecode através da JVM. Recebe em sequência o nome da classe, não do arquivo. (JRE.)
+
+### Capítulo 4
+
+Casting:
+
+```
+int valor = (int)1250.50; // = 1250
+```
+
+[Tamanhos](https://www.w3schools.com/java/java_data_types.asp)
