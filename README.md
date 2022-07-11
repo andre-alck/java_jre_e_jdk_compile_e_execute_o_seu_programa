@@ -37,7 +37,6 @@ System.out.println(frase); // Compilando uma String com 1 Inteiro.
 
 ## Capítulo 6
 
-
 Escopo: entre chaves.
 
 ```java
@@ -46,3 +45,34 @@ Escopo: entre chaves.
 ```
 
 Java não tem keywords "and" e "or".
+
+## Capítulo 7
+
+```java
+//for
+int valorMaximo = 10;
+int outroValor = valorMaximo / 2;
+
+for (int i = 0; i < valorMaximo; i++) {
+    if (i % outroValor == 0 && i != 0) {
+        System.out.println(i);
+        break;
+    }
+}
+```
+
+```java
+//while
+int valorMaximo = 10;
+int outroValor = valorMaximo / 2;
+
+int i = 0;
+while (i < valorMaximo) {
+    if (i % outroValor == 0 && i != 0) {
+        System.out.println(i);
+        break;
+    }
+
+    i++;
+}
+```
