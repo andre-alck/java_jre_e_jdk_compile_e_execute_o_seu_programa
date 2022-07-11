@@ -1,14 +1,12 @@
 # Curso de Java JRE e JDK: compile e execute o seu programa
 
-## Anotações
+**JAVA = \*.java**
 
-JAVA = *.java
-
-### Capítulo 1
+## Capítulo 1
 
 Java Virtual Machine (JVM): multiplataforma, é responsável por ler e executar o Bytecode gerado após a compilação do arquivo \*.java.
 
-### Capítulo 2
+## Capítulo 2
 
 ```
 javac Programa.java
@@ -19,11 +17,11 @@ javac: comando utilizado no Prompt de Comando para compilar um arquivo \*.java. 
 
 java: comando utilizado para executar o Bytecode através da JVM. Recebe em sequência o nome da classe, não do arquivo. (JRE.)
 
-### Capítulo 4
+## Capítulo 4
 
 Casting:
 
-```
+```java
 int valor = (int)1250.50; // = 1250
 ```
 
@@ -31,8 +29,20 @@ int valor = (int)1250.50; // = 1250
 
 ## Capítulo 5
 
-```
+```java
 int um = 1;
 String frase = "Concatenando uma String com " + um + " Inteiro.";
 System.out.println(frase); // Compilando uma String com 1 Inteiro.
 ```
+
+## Capítulo 6
+
+
+Escopo: entre chaves.
+
+```java
+&&
+||
+```
+
+Java não tem keywords "and" e "or".
