@@ -80,3 +80,5 @@ while (i < valorMaximo) {
     i++;
 }
 ```
+
+![](certificado.png)
